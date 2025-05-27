@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+apis/node_modules/
+store/node_modules/
+
+# .env
+.env
+.env.local
+store/.env.local
+apis/.env
+
+# Next.js build output
+store/.next/

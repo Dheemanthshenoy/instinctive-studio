@@ -1,0 +1,553 @@
+{
+    "products": [
+        {
+            "name": "Nike ZoomX Vaporfly Next% 2",
+            "slug": "nike-zoomx-vaporfly-next-2",
+            "description": "Elite racing shoe with carbon plate",
+            "price": 250,
+            "location": "Los Angeles",
+            "category": "running-shoes",
+            "stock": 100,
+            "attributes": {
+                "size": 9.5,
+                "color": "Bright Crimson",
+                "brand": "Nike",
+                "material": "Vaporweave",
+                "model": "Vaporfly Next% 2",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "LG G3 OLED TV",
+            "slug": "lg-g3-oled-tv",
+            "description": "83-inch OLED Smart TV with Gallery Design",
+            "price": 4999,
+            "location": "Chicago",
+            "category": "televisions",
+            "stock": 0,
+            "attributes": {
+                "size": 83,
+                "brand": "LG",
+                "model": "OLED83G3",
+                "style": "Gallery"
+            }
+        },
+        {
+            "name": "Brooks Ghost 14",
+            "slug": "brooks-ghost-14",
+            "description": "Smooth and stable running shoe",
+            "price": 130,
+            "location": "Seattle",
+            "category": "running-shoes",
+            "stock": 5,
+            "attributes": {
+                "size": 8.5,
+                "color": "Gray/Blue",
+                "brand": "Brooks",
+                "material": "Engineered Mesh",
+                "model": "Ghost 14",
+                "style": "Neutral",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Samsung Neo QLED 8K TV",
+            "slug": "samsung-neo-qled-8k-tv",
+            "description": "75-inch Neo QLED 8K Smart TV with Quantum HDR",
+            "price": 2499,
+            "location": "Miami",
+            "category": "televisions",
+            "stock": 15,
+            "attributes": {
+                "size": 75,
+                "brand": "Samsung",
+                "model": "QN75QN900B",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Adidas Ultraboost 22",
+            "slug": "adidas-ultraboost-22",
+            "description": "Responsive running shoe with Boost midsole",
+            "price": 180,
+            "location": "Boston",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10,
+                "color": "Core Black",
+                "brand": "Adidas",
+                "material": "Primeknit",
+                "model": "Ultraboost 22",
+                "style": "Performance",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Sony A95K QD-OLED TV",
+            "slug": "sony-a95k-qd-oled-tv",
+            "description": "65-inch QD-OLED Smart TV with Cognitive Processor XR",
+            "price": 2999,
+            "location": "San Francisco",
+            "category": "televisions",
+            "stock": 8,
+            "attributes": {
+                "size": 65,
+                "brand": "Sony",
+                "model": "XR-65A95K",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Hoka Clifton 8",
+            "slug": "hoka-clifton-8",
+            "description": "Lightweight and cushioned running shoe",
+            "price": 140,
+            "location": "Denver",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10.5,
+                "color": "Black/Red",
+                "brand": "Hoka",
+                "material": "Engineered Mesh",
+                "model": "Clifton 8",
+                "style": "Maximalist",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "TCL 6-Series Roku TV",
+            "slug": "tcl-6-series-roku-tv",
+            "description": "65-inch Mini-LED 4K Roku Smart TV",
+            "price": 999,
+            "location": "Austin",
+            "category": "televisions",
+            "stock": 25,
+            "attributes": {
+                "size": 65,
+                "brand": "TCL",
+                "model": "65R655",
+                "style": "Modern"
+            }
+        },
+        {
+            "name": "New Balance Fresh Foam 1080v12",
+            "slug": "new-balance-fresh-foam-1080v12",
+            "description": "Plush cushioning for long-distance running",
+            "price": 160,
+            "location": "Portland",
+            "category": "running-shoes",
+            "stock": 3,
+            "attributes": {
+                "size": 9.5,
+                "color": "White/Blue",
+                "brand": "New Balance",
+                "material": "Engineered Knit",
+                "model": "1080v12",
+                "style": "Premium",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "LG C3 OLED TV",
+            "slug": "lg-c3-oled-tv",
+            "description": "77-inch OLED Smart TV with AI Picture Pro",
+            "price": 2999,
+            "location": "Las Vegas",
+            "category": "televisions",
+            "stock": 0,
+            "attributes": {
+                "size": 77,
+                "brand": "LG",
+                "model": "OLED77C3",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Saucony Endorphin Pro 3",
+            "slug": "saucony-endorphin-pro-3",
+            "description": "Carbon-plated racing shoe for speed",
+            "price": 200,
+            "location": "Philadelphia",
+            "category": "running-shoes",
+            "stock": 7,
+            "attributes": {
+                "size": 10,
+                "color": "White/Red",
+                "brand": "Saucony",
+                "material": "Engineered Mesh",
+                "model": "Endorphin Pro 3",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Hisense U8H ULED TV",
+            "slug": "hisense-u8h-uled-tv",
+            "description": "75-inch ULED 4K Smart TV with Quantum Dot",
+            "price": 1499,
+            "location": "Houston",
+            "category": "televisions",
+            "stock": 0,
+            "attributes": {
+                "size": 75,
+                "brand": "Hisense",
+                "model": "75U8H",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Mizuno Wave Rider 26",
+            "slug": "mizuno-wave-rider-26",
+            "description": "Balanced cushioning and stability",
+            "price": 130,
+            "location": "San Diego",
+            "category": "running-shoes",
+            "stock": 12,
+            "attributes": {
+                "size": 9.5,
+                "color": "Blue/White",
+                "brand": "Mizuno",
+                "material": "Smooth Air Mesh",
+                "model": "Wave Rider 26",
+                "style": "Neutral",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Samsung Frame TV",
+            "slug": "samsung-frame-tv",
+            "description": "55-inch QLED 4K Smart TV with Art Mode",
+            "price": 1499,
+            "location": "Atlanta",
+            "category": "televisions",
+            "stock": 4,
+            "attributes": {
+                "size": 55,
+                "brand": "Samsung",
+                "model": "LS03B",
+                "style": "Artistic"
+            }
+        },
+        {
+            "name": "Altra Torin 6",
+            "slug": "altra-torin-6",
+            "description": "Zero-drop running shoe with balanced cushioning",
+            "price": 150,
+            "location": "Nashville",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10,
+                "color": "Gray/Orange",
+                "brand": "Altra",
+                "material": "Engineered Knit",
+                "model": "Torin 6",
+                "style": "Natural",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Sony X95K Mini LED TV",
+            "slug": "sony-x95k-mini-led-tv",
+            "description": "85-inch Mini LED 4K Smart TV",
+            "price": 3999,
+            "location": "Dallas",
+            "category": "televisions",
+            "stock": 6,
+            "attributes": {
+                "size": 85,
+                "brand": "Sony",
+                "model": "XR-85X95K",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "On Cloud X",
+            "slug": "on-cloud-x",
+            "description": "Versatile running shoe for road and gym",
+            "price": 140,
+            "location": "Phoenix",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 9,
+                "color": "White/Black",
+                "brand": "On",
+                "material": "Engineered Mesh",
+                "model": "Cloud X",
+                "style": "Hybrid",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Philips OLED+ 907",
+            "slug": "philips-oled-plus-907",
+            "description": "65-inch OLED Smart TV with Ambilight",
+            "price": 1999,
+            "location": "Detroit",
+            "category": "televisions",
+            "stock": 9,
+            "attributes": {
+                "size": 65,
+                "brand": "Philips",
+                "model": "65OLED907",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Salomon Speedcross 5",
+            "slug": "salomon-speedcross-5",
+            "description": "Trail running shoe with aggressive grip",
+            "price": 130,
+            "location": "Salt Lake City",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10.5,
+                "color": "Black/Red",
+                "brand": "Salomon",
+                "material": "Quicklace System",
+                "model": "Speedcross 5",
+                "style": "Trail",
+                "type": "Trail Running"
+            }
+        },
+        {
+            "name": "Panasonic LZ2000 OLED TV",
+            "slug": "panasonic-lz2000-oled-tv",
+            "description": "65-inch OLED Smart TV with HCX Pro AI",
+            "price": 2499,
+            "location": "Minneapolis",
+            "category": "televisions",
+            "stock": 2,
+            "attributes": {
+                "size": 65,
+                "brand": "Panasonic",
+                "model": "TX-65LZ2000",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Brooks Adrenaline GTS 22",
+            "slug": "brooks-adrenaline-gts-22",
+            "description": "Stability running shoe with GuideRails",
+            "price": 140,
+            "location": "Charlotte",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 9,
+                "color": "Gray/Blue",
+                "brand": "Brooks",
+                "material": "Engineered Mesh",
+                "model": "Adrenaline GTS 22",
+                "style": "Stability",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Sharp Aquos R6",
+            "slug": "sharp-aquos-r6",
+            "description": "60-inch 4K Smart TV with Android TV",
+            "price": 899,
+            "location": "Orlando",
+            "category": "televisions",
+            "stock": 8,
+            "attributes": {
+                "size": 60,
+                "brand": "Sharp",
+                "model": "LC-60RQ20U",
+                "style": "Modern"
+            }
+        },
+        {
+            "name": "New Balance FuelCell Elite v3",
+            "slug": "new-balance-fuelcell-elite-v3",
+            "description": "Carbon-plated racing shoe for elite runners",
+            "price": 180,
+            "location": "Pittsburgh",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 9.5,
+                "color": "White/Green",
+                "brand": "New Balance",
+                "material": "Engineered Knit",
+                "model": "FuelCell Elite v3",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Xiaomi Mi TV Q1",
+            "slug": "xiaomi-mi-tv-q1",
+            "description": "75-inch QLED 4K Smart TV",
+            "price": 1299,
+            "location": "San Jose",
+            "category": "televisions",
+            "stock": 5,
+            "attributes": {
+                "size": 75,
+                "brand": "Xiaomi",
+                "model": "L75M6-ES",
+                "style": "Contemporary"
+            }
+        },
+        {
+            "name": "Hoka Bondi 8",
+            "slug": "hoka-bondi-8",
+            "description": "Maximum cushioning for comfort",
+            "price": 160,
+            "location": "Cleveland",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10,
+                "color": "White/Blue",
+                "brand": "Hoka",
+                "material": "Engineered Mesh",
+                "model": "Bondi 8",
+                "style": "Maximalist",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Vizio M-Series Quantum TV",
+            "slug": "vizio-m-series-quantum-tv",
+            "description": "70-inch Quantum Color 4K Smart TV",
+            "price": 799,
+            "location": "Tampa",
+            "category": "televisions",
+            "stock": 3,
+            "attributes": {
+                "size": 70,
+                "brand": "Vizio",
+                "model": "M70Q7-J03",
+                "style": "Modern"
+            }
+        },
+        {
+            "name": "Adidas Adizero Adios Pro 3",
+            "slug": "adidas-adizero-adios-pro-3",
+            "description": "Carbon-infused racing shoe",
+            "price": 200,
+            "location": "St. Louis",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10,
+                "color": "Core Black",
+                "brand": "Adidas",
+                "material": "Celermesh",
+                "model": "Adios Pro 3",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Hisense U9DG Dual Cell TV",
+            "slug": "hisense-u9dg-dual-cell-tv",
+            "description": "75-inch Dual Cell ULED 8K Smart TV",
+            "price": 2999,
+            "location": "Kansas City",
+            "category": "televisions",
+            "stock": 7,
+            "attributes": {
+                "size": 75,
+                "brand": "Hisense",
+                "model": "75U9DG",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Puma Deviate Nitro Elite",
+            "slug": "puma-deviate-nitro-elite",
+            "description": "Carbon-plated racing shoe with Nitro foam",
+            "price": 180,
+            "location": "Cincinnati",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 9,
+                "color": "White/Blue",
+                "brand": "Puma",
+                "material": "Engineered Mesh",
+                "model": "Deviate Nitro Elite",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "TCL 8-Series Roku TV",
+            "slug": "tcl-8-series-roku-tv",
+            "description": "75-inch Mini-LED 8K Roku Smart TV",
+            "price": 1999,
+            "location": "Indianapolis",
+            "category": "televisions",
+            "stock": 4,
+            "attributes": {
+                "size": 75,
+                "brand": "TCL",
+                "model": "75R648",
+                "style": "Premium"
+            }
+        },
+        {
+            "name": "Under Armour Flow Velociti Wind 2",
+            "slug": "under-armour-flow-velociti-wind-2",
+            "description": "Lightweight racing shoe with Flow technology",
+            "price": 160,
+            "location": "Baltimore",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10.5,
+                "color": "Black/White",
+                "brand": "Under Armour",
+                "material": "UA Flow",
+                "model": "Velociti Wind 2",
+                "style": "Racing",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Reebok Floatride Energy 4",
+            "slug": "reebok-floatride-energy-4",
+            "description": "Versatile daily trainer with Floatride foam",
+            "price": 120,
+            "location": "Raleigh",
+            "category": "running-shoes",
+            "stock": 6,
+            "attributes": {
+                "size": 9.5,
+                "color": "Gray/Red",
+                "brand": "Reebok",
+                "material": "Engineered Mesh",
+                "model": "Floatride Energy 4",
+                "style": "Neutral",
+                "type": "Road Running"
+            }
+        },
+        {
+            "name": "Skechers GoRun Razor 4",
+            "slug": "skechers-gorun-razor-4",
+            "description": "Lightweight performance running shoe",
+            "price": 110,
+            "location": "New Orleans",
+            "category": "running-shoes",
+            "stock": 0,
+            "attributes": {
+                "size": 10,
+                "color": "Black/Blue",
+                "brand": "Skechers",
+                "material": "Engineered Mesh",
+                "model": "GoRun Razor 4",
+                "style": "Performance",
+                "type": "Road Running"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "categories": [
+        {
+            "name": "Televisions",
+            "slug": "televisions",
+            "attributeSchema": {
+                "size": {
+                    "type": "number",
+                    "label": "Size"
+                }, 
+                "brand": {
+                    "type": "string",
+                    "label": "Brand"
+                },
+                "price": {
+                    "type": "number",
+                    "label": "Price"
+                },
+                "model": {
+                    "type": "string",
+                    "label": "Model"
+                },
+                "style": {
+                    "type": "string",
+                    "label": "Style"
+                }
+            }
+        }, {
+            "name": "Running Shoes",
+            "slug": "running-shoes",
+            "attributeSchema": {
+                "size": {
+                    "type": "number",
+                    "label": "Size"
+                }, 
+                "color": {
+                    "type": "string",
+                    "label": "Color"
+                }, 
+                "price": {
+                    "type": "number",
+                    "label": "Price"
+                }, 
+                "brand": {
+                    "type": "string",
+                    "label": "Brand"
+                },
+                "material": {
+                    "type": "string",
+                    "label": "Material"
+                },
+                "model": {
+                    "type": "string",
+                    "label": "Model"
+                },
+                "style": {
+                    "type": "string",
+                    "label": "Style"
+                },
+                "type": {
+                    "type": "string",
+                    "label": "Type"
+                }
+            }
+        }
+    ]
+}
