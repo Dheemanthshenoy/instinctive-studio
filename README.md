@@ -34,8 +34,10 @@ B2B Marketplace APIs and Store
     npm install
     ```
 3. Create a `.env.local` file in the root of the `store` folder with the below contents.
-    - NEXT_PUBLIC_API_URL=http://localhost:8080/api
-    - NEXT_PUBLIC_APP_URL=http://localhost:3000
+    ```env
+    NEXT_PUBLIC_API_URL=http://localhost:8080/api
+    NEXT_PUBLIC_APP_URL=http://localhost:3000
+    ```
 4. Start the development server using 
     ``` bash
     npm run dev
