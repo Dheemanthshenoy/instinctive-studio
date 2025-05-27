@@ -25,7 +25,7 @@ B2B Marketplace APIs and Store
     npm run dev
     ```
 
-5. Once running, the APIs will be accessible at `[http://localhost:8080](http://localhost:8080)`.
+5. Once running, the APIs will be accessible at [http://localhost:8080](http://localhost:8080).
 6. To seed the database, go to the `apis/seed` directory where you'll find `seed.js`.
 7. Run `node seed.js` and choose the data you wish to seed. You will be prompted to choose the data you want to seed. Use the ↑ and ↓ arrow keys to select from:
 
