@@ -1,4 +1,4 @@
-# instinctive-studio
+# B2B Marketplace
 B2B Marketplace APIs and Store
 
 ### How to Run the APIs?
@@ -33,7 +33,7 @@ B2B Marketplace APIs and Store
     > Categories
     > Products
     ``` 
-    
+
 8. After selecting an option, press Enter. The script will begin seeding the selected data into the database.
 
 ### How to Run the Store?
