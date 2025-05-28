@@ -3,11 +3,11 @@ import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 
-const josefinSans = Josefin_Sans({ 
+const josefinSans = Josefin_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-josefin-sans",
- });
+});
 
 export const metadata: Metadata = {
   title: "B2B Marketplace",
@@ -17,9 +17,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={josefinSans.className}>
-        <Providers>{children}</Providers>
-      </body>
+      <Providers>
+        <body className={josefinSans.className}>
+          {children}
+        </body>
+      </Providers>
     </html>
   );
 }
