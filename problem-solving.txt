@@ -1,0 +1,23 @@
+Intent Extraction Strategy
+Que 1. Describe a pragmatic and scalable pipeline (libraries, ML models, rule layers) that converts the query “running shoes size 9 red under ₹2 000 in Mumbai” into structured filters.
+Ans 1.  - To handle queries like “running shoes size 9 red under ₹2,000 in Mumbai” in a smart and scalable way, we can mix AI and rule-based logic. 
+          First, we use natural language tools like spaCy or BERT to pick out key details—like the product (running shoes), size (9), color (red), price (under ₹2,000), and location (Mumbai). 
+          Then, we apply some custom rules to translate these details into filters that match how our product database works. 
+          This mix of machine learning and practical logic makes the system accurate, fast, and easy to scale.
+
+Que 2. What fallback do you implement when the system cannot confidently classify part of the query?
+Ans 2.  - More user inputs shown as suggestions. It is better to ask more inputs from user like Location, Price.
+        - Log or save the search inputs from users for training models and improve the search capbility
+        - Search based on the partial keywords. If users input is organic NPK fertilisers in Thrissur under ₹500 / kg. Search for 500, fertilisers, organic etc.
+
+Flexible Schema for Category-Specific Attributes
+Que 1. Relational vs. document vs. hybrid: which data model would you adopt so merchandisers can add new attributes (e.g., “Energy Rating” for ACs) without large-scale migrations?
+Ans 1. - Hybrid model will be better since the attributes will be changing based on the category. 
+         So if we are keeping the attributes in the schema, then it will be harder to scale and require efforts to update or add attributes
+         For example:- { 'name': { type: String }, 'attributes': { type: Object } }
+         Where fields inside the attributes 'Object' won't be defined in the schema and won't be indexed until manually done.
+
+Que 2. Explain how your choice supports fast multi-attribute filtering and attribute existence queries.
+Ans 2. - We can use { 'attributes.powerRating': 5 } to fetch all the products which are having Power Rating 5 as attributes
+       - If the 'powerRating' is one of the attribute which is being queried, then we can index it since MongoDB support nested indexing and compound indexing
+         For example:- { 'attributes.powerRating': 1 } can be indexed for faster results, additionally before quering a attribute we can also check whether it exists or not.
